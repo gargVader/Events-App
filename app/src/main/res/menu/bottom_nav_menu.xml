@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Menu items to have the same id as the destinations-->
+    <item
+        android:id="@+id/menu_events"
+        android:icon="@drawable/ic_event_black_18dp"
+        android:title="@string/title_events" />
+
+    <item
+        android:id="@+id/menu_favourites"
+        android:icon="@drawable/ic_baseline_favorite_border"
+        android:title="@string/title_favourites" />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_perm_identity_24px"
+        android:title="@string/title_profile" />
+
+</menu>

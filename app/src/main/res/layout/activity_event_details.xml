@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListItemDetailActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:id="@+id/eventImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/holo_orange_light"
+        android:src="@drawable/header"
+        />
+
+        <LinearLayout
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:orientation="vertical"
+            android:layout_below="@id/eventImageView"
+            >
+
+            <TextView
+                android:id="@+id/eventNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                tools:text="IEMPHYS"
+                />
+
+            <TextView
+                android:id="@+id/eventDayMonthView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="24 May 2020"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/eventLocationView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                tools:text="IEM Management Campus"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Overview:"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="24dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="@string/lorem"
+        />
+
+</LinearLayout>
+
+</ScrollView>

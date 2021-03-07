@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "203807638315",
+    "firebase_url": "https://events-app-c3dad-default-rtdb.firebaseio.com",
+    "project_id": "events-app-c3dad",
+    "storage_bucket": "events-app-c3dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203807638315:android:7e1287320276ecd9b7fb6e",
+        "android_client_info": {
+          "package_name": "com.example.eventsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203807638315-4uhhqammsps32oligtaj6h0oblb9qmqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKgT3ZE3dp4Aqu-v7waK3VHj6HXQwo10A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203807638315-4uhhqammsps32oligtaj6h0oblb9qmqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203807638315:android:6db23d42609f8df2b7fb6e",
+        "android_client_info": {
+          "package_name": "com.example.eventsappbottomnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203807638315-4uhhqammsps32oligtaj6h0oblb9qmqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKgT3ZE3dp4Aqu-v7waK3VHj6HXQwo10A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203807638315-4uhhqammsps32oligtaj6h0oblb9qmqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
